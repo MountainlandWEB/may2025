@@ -9,28 +9,28 @@ importers:
   .:
     dependencies:
       '@angular/animations':
-        specifier: ^19.0.0
+        specifier: ^19.2.9
         version: 19.2.9(@angular/common@19.2.9(@angular/core@19.2.9(rxjs@7.8.2)(zone.js@0.15.0))(rxjs@7.8.2))(@angular/core@19.2.9(rxjs@7.8.2)(zone.js@0.15.0))
       '@angular/common':
-        specifier: ^19.0.0
+        specifier: ^19.2.9
         version: 19.2.9(@angular/core@19.2.9(rxjs@7.8.2)(zone.js@0.15.0))(rxjs@7.8.2)
       '@angular/compiler':
-        specifier: ^19.0.0
+        specifier: ^19.2.9
         version: 19.2.9
       '@angular/core':
-        specifier: ^19.0.0
+        specifier: ^19.2.9
         version: 19.2.9(rxjs@7.8.2)(zone.js@0.15.0)
       '@angular/forms':
-        specifier: ^19.0.0
+        specifier: ^19.2.9
         version: 19.2.9(@angular/common@19.2.9(@angular/core@19.2.9(rxjs@7.8.2)(zone.js@0.15.0))(rxjs@7.8.2))(@angular/core@19.2.9(rxjs@7.8.2)(zone.js@0.15.0))(@angular/platform-browser@19.2.9(@angular/animations@19.2.9(@angular/common@19.2.9(@angular/core@19.2.9(rxjs@7.8.2)(zone.js@0.15.0))(rxjs@7.8.2))(@angular/core@19.2.9(rxjs@7.8.2)(zone.js@0.15.0)))(@angular/common@19.2.9(@angular/core@19.2.9(rxjs@7.8.2)(zone.js@0.15.0))(rxjs@7.8.2))(@angular/core@19.2.9(rxjs@7.8.2)(zone.js@0.15.0)))(rxjs@7.8.2)
       '@angular/platform-browser':
-        specifier: ^19.0.0
+        specifier: ^19.2.9
         version: 19.2.9(@angular/animations@19.2.9(@angular/common@19.2.9(@angular/core@19.2.9(rxjs@7.8.2)(zone.js@0.15.0))(rxjs@7.8.2))(@angular/core@19.2.9(rxjs@7.8.2)(zone.js@0.15.0)))(@angular/common@19.2.9(@angular/core@19.2.9(rxjs@7.8.2)(zone.js@0.15.0))(rxjs@7.8.2))(@angular/core@19.2.9(rxjs@7.8.2)(zone.js@0.15.0))
       '@angular/platform-browser-dynamic':
-        specifier: ^19.0.0
+        specifier: ^19.2.9
         version: 19.2.9(@angular/common@19.2.9(@angular/core@19.2.9(rxjs@7.8.2)(zone.js@0.15.0))(rxjs@7.8.2))(@angular/compiler@19.2.9)(@angular/core@19.2.9(rxjs@7.8.2)(zone.js@0.15.0))(@angular/platform-browser@19.2.9(@angular/animations@19.2.9(@angular/common@19.2.9(@angular/core@19.2.9(rxjs@7.8.2)(zone.js@0.15.0))(rxjs@7.8.2))(@angular/core@19.2.9(rxjs@7.8.2)(zone.js@0.15.0)))(@angular/common@19.2.9(@angular/core@19.2.9(rxjs@7.8.2)(zone.js@0.15.0))(rxjs@7.8.2))(@angular/core@19.2.9(rxjs@7.8.2)(zone.js@0.15.0)))
       '@angular/router':
-        specifier: ^19.0.0
+        specifier: ^19.2.9
         version: 19.2.9(@angular/common@19.2.9(@angular/core@19.2.9(rxjs@7.8.2)(zone.js@0.15.0))(rxjs@7.8.2))(@angular/core@19.2.9(rxjs@7.8.2)(zone.js@0.15.0))(@angular/platform-browser@19.2.9(@angular/animations@19.2.9(@angular/common@19.2.9(@angular/core@19.2.9(rxjs@7.8.2)(zone.js@0.15.0))(rxjs@7.8.2))(@angular/core@19.2.9(rxjs@7.8.2)(zone.js@0.15.0)))(@angular/common@19.2.9(@angular/core@19.2.9(rxjs@7.8.2)(zone.js@0.15.0))(rxjs@7.8.2))(@angular/core@19.2.9(rxjs@7.8.2)(zone.js@0.15.0)))(rxjs@7.8.2)
       '@capacitor/app':
         specifier: 7.0.1
@@ -48,89 +48,89 @@ importers:
         specifier: 7.0.1
         version: 7.0.1(@capacitor/core@7.2.0)
       '@ionic/angular':
-        specifier: ^8.0.0
+        specifier: ^8.5.6
         version: 8.5.6(ec768e8a814e4ae480bd7d46e8868c21)
       ionicons:
-        specifier: ^7.0.0
+        specifier: ^7.4.0
         version: 7.4.0
       rxjs:
-        specifier: ~7.8.0
+        specifier: ~7.8.2
         version: 7.8.2
       tslib:
-        specifier: ^2.3.0
+        specifier: ^2.8.1
         version: 2.8.1
       zone.js:
         specifier: ~0.15.0
         version: 0.15.0
     devDependencies:
       '@angular-devkit/build-angular':
-        specifier: ^19.0.0
+        specifier: ^19.2.10
         version: 19.2.10(@angular/compiler-cli@19.2.9(@angular/compiler@19.2.9)(typescript@5.6.3))(@angular/compiler@19.2.9)(@types/node@22.15.3)(chokidar@4.0.3)(jiti@1.21.7)(karma@6.4.4)(typescript@5.6.3)(vite@6.2.7(@types/node@22.15.3)(jiti@1.21.7)(less@4.2.2)(sass@1.85.0)(terser@5.39.0))
       '@angular-eslint/builder':
-        specifier: ^19.0.0
+        specifier: ^19.3.0
         version: 19.3.0(chokidar@4.0.3)(eslint@9.25.1(jiti@1.21.7))(typescript@5.6.3)
       '@angular-eslint/eslint-plugin':
-        specifier: ^19.0.0
+        specifier: ^19.3.0
         version: 19.3.0(@typescript-eslint/utils@8.31.1(eslint@9.25.1(jiti@1.21.7))(typescript@5.6.3))(eslint@9.25.1(jiti@1.21.7))(typescript@5.6.3)
       '@angular-eslint/eslint-plugin-template':
-        specifier: ^19.0.0
+        specifier: ^19.3.0
         version: 19.3.0(@typescript-eslint/types@8.31.1)(@typescript-eslint/utils@8.31.1(eslint@9.25.1(jiti@1.21.7))(typescript@5.6.3))(eslint@9.25.1(jiti@1.21.7))(typescript@5.6.3)
       '@angular-eslint/schematics':
-        specifier: ^19.0.0
+        specifier: ^19.3.0
         version: 19.3.0(@typescript-eslint/types@8.31.1)(@typescript-eslint/utils@8.31.1(eslint@9.25.1(jiti@1.21.7))(typescript@5.6.3))(chokidar@4.0.3)(eslint@9.25.1(jiti@1.21.7))(typescript@5.6.3)
       '@angular-eslint/template-parser':
-        specifier: ^19.0.0
+        specifier: ^19.3.0
         version: 19.3.0(eslint@9.25.1(jiti@1.21.7))(typescript@5.6.3)
       '@angular/cli':
-        specifier: ^19.0.0
+        specifier: ^19.2.10
         version: 19.2.10(@types/node@22.15.3)(chokidar@4.0.3)
       '@angular/compiler-cli':
-        specifier: ^19.0.0
+        specifier: ^19.2.9
         version: 19.2.9(@angular/compiler@19.2.9)(typescript@5.6.3)
       '@angular/language-service':
-        specifier: ^19.0.0
+        specifier: ^19.2.9
         version: 19.2.9
       '@capacitor/cli':
         specifier: 7.2.0
         version: 7.2.0
       '@ionic/angular-toolkit':
-        specifier: ^12.0.0
+        specifier: ^12.2.0
         version: 12.2.0(chokidar@4.0.3)
       '@types/jasmine':
-        specifier: ~5.1.0
+        specifier: ~5.1.7
         version: 5.1.7
       '@typescript-eslint/eslint-plugin':
-        specifier: ^8.18.0
+        specifier: ^8.31.1
         version: 8.31.1(@typescript-eslint/parser@8.31.1(eslint@9.25.1(jiti@1.21.7))(typescript@5.6.3))(eslint@9.25.1(jiti@1.21.7))(typescript@5.6.3)
       '@typescript-eslint/parser':
-        specifier: ^8.18.0
+        specifier: ^8.31.1
         version: 8.31.1(eslint@9.25.1(jiti@1.21.7))(typescript@5.6.3)
       eslint:
-        specifier: ^9.16.0
+        specifier: ^9.25.1
         version: 9.25.1(jiti@1.21.7)
       eslint-plugin-import:
-        specifier: ^2.29.1
+        specifier: ^2.31.0
         version: 2.31.0(@typescript-eslint/parser@8.31.1(eslint@9.25.1(jiti@1.21.7))(typescript@5.6.3))(eslint@9.25.1(jiti@1.21.7))
       eslint-plugin-jsdoc:
-        specifier: ^48.2.1
+        specifier: ^48.11.0
         version: 48.11.0(eslint@9.25.1(jiti@1.21.7))
       eslint-plugin-prefer-arrow:
         specifier: 1.2.2
         version: 1.2.2(eslint@9.25.1(jiti@1.21.7))
       jasmine-core:
-        specifier: ~5.1.0
+        specifier: ~5.1.2
         version: 5.1.2
       jasmine-spec-reporter:
-        specifier: ~5.0.0
+        specifier: ~5.0.2
         version: 5.0.2
       karma:
-        specifier: ~6.4.0
+        specifier: ~6.4.4
         version: 6.4.4
       karma-chrome-launcher:
         specifier: ~3.2.0
         version: 3.2.0
       karma-coverage:
-        specifier: ~2.2.0
+        specifier: ~2.2.1
         version: 2.2.1
       karma-jasmine:
         specifier: ~5.1.0
