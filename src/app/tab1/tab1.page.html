@@ -14,31 +14,11 @@
 <ion-content [fullscreen]="true">
 
   <ion-list>
-    <ion-item><ion-label>Temp Item</ion-label></ion-item>
-    <ion-item><ion-label>Temp Item</ion-label></ion-item>
-    <ion-item><ion-label>Temp Item</ion-label></ion-item>
-    <ion-item><ion-label>Temp Item</ion-label></ion-item>
-    <ion-item><ion-label>Temp Item</ion-label></ion-item>
-    <ion-item><ion-label>Temp Item</ion-label></ion-item>
-    <ion-item><ion-label>Temp Item</ion-label></ion-item>
-    <ion-item><ion-label>Temp Item</ion-label></ion-item>
-    <ion-item><ion-label>Temp Item</ion-label></ion-item>
-    <ion-item><ion-label>Temp Item</ion-label></ion-item>
-    <ion-item><ion-label>Temp Item</ion-label></ion-item>
-    <ion-item><ion-label>Temp Item</ion-label></ion-item>
-    <ion-item><ion-label>Temp Item</ion-label></ion-item>
-    <ion-item><ion-label>Temp Item</ion-label></ion-item>
-    <ion-item><ion-label>Temp Item</ion-label></ion-item>
-    <ion-item><ion-label>Temp Item</ion-label></ion-item>
-    <ion-item><ion-label>Temp Item</ion-label></ion-item>
-    <ion-item><ion-label>Temp Item</ion-label></ion-item>
-    <ion-item><ion-label>Temp Item</ion-label></ion-item>
-    <ion-item><ion-label>Temp Item</ion-label></ion-item>
-    <ion-item><ion-label>Temp Item</ion-label></ion-item>
-    <ion-item><ion-label>Temp Item</ion-label></ion-item>
-    <ion-item><ion-label>Temp Item</ion-label></ion-item>
-    <ion-item><ion-label>Temp Item</ion-label></ion-item>
-    <ion-item><ion-label>Temp Item</ion-label></ion-item>
+    @for (person of persons; track person.id) {
+      <ion-item [routerLink]="['detail', { state: person }]" detail>
+        <ion-label>{{ person.name }}</ion-label>
+      </ion-item>
+    }
   </ion-list>
 
 </ion-content>
