@@ -3,12 +3,20 @@
     <ion-buttons slot="start">
       <ion-back-button defaultHref="/tabs/tab1"></ion-back-button>
     </ion-buttons>
-    <ion-title>detail</ion-title>
+    <ion-title>{{ person?.name }}</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content class="ion-padding">
 
-  {{ person | json }}
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>{{ person?.name }}</ion-card-title>
+      <ion-card-subtitle>Age: {{ person?.age }}</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      JSON: {{ person | json }}
+    </ion-card-content>
+  </ion-card>
 
 </ion-content>

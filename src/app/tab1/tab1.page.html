@@ -15,7 +15,7 @@
 
   <ion-list>
     @for (person of persons; track person.id) {
-      <ion-item [routerLink]="['detail', { state: person }]" detail>
+      <ion-item (click)="loadDetail(person)" detail>
         <ion-label>{{ person.name }}</ion-label>
       </ion-item>
     }
