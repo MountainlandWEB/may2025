@@ -1,5 +1,7 @@
 {
   "name": "may2025",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular-standalone"
 }
